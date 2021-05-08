@@ -1,0 +1,84 @@
+body{
+    color:white;
+    margin:0px ;
+    padding: 0px;
+    background:url('img/rrr.jpg');
+   height: 2879px;
+   
+}
+.left{
+    display: inline-block;
+    
+    position: absolute;
+    top: 20px;
+    left: 34px;
+}
+.left img{
+    width: 78px;
+    filter: invert(100%);
+}
+.left div{
+    text-align: center;
+}
+.mid{
+    color: chartreuse;
+    display:block;
+    width:33%;
+    margin: 20px auto;
+    
+}
+.right{
+    position:absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size:14px ;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: grey;
+}
+.btn{
+    margin: 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:grey;
+}
+.container{
+    text-align: center;
+    border: 2px solid white;
+    margin: 115px 154px;
+    padding:75px ;
+    width: 33%;
+    border-radius: 28px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 204px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 3px auto;
+    font-size: 21px;
+    border-radius: 7px;
+}
